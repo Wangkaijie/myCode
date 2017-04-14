@@ -1,0 +1,1 @@
+gradle  tops-order-intl:tops-order-dao-intl-proto:upload  tops-order-intl:tops-order-dao-intl-client:upload   -c  tops-order-dao-intl.settings.gradle -x javadoc
