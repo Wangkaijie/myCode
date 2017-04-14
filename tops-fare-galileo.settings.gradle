@@ -1,0 +1,5 @@
+include 'tops-fare-galileo:tops-fare-galileo-proto'
+include 'tops-fare-galileo:tops-fare-galileo-shopping'
+include 'tops-fare-galileo:tops-fare-galileo-shopping-client'
+include 'tops-fare-galileo:tops-fare-galileo-shopping-convertor'
+

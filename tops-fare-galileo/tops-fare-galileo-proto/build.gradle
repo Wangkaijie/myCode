@@ -1,0 +1,15 @@
+apply plugin: 'java'
+
+group = 'com.travelzen'
+version = "${versions.tops_fare_galileo}"
+jar {
+	baseName = 'tops-fare-galileo-proto'
+}
+
+dependencies {
+    compile libraries.slf4j_api
+    compile libraries.thrift
+    
+    compile libraries.tops_fare_util_proto
+}
+

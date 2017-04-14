@@ -1,0 +1,9 @@
+ext {
+    versions = [
+             tops_fare_galileo           : '1.2.25.4.RELEASE',
+    ]
+    libraries = [
+            tops_fare_galileo_proto                       : "com.travelzen:tops-fare-galileo-proto:${versions.tops_fare_galileo}",
+            tops_fare_galileo_shopping_client             : "com.travelzen:tops-fare-galileo-shopping-client:${versions.tops_fare_galileo}",
+    ]
+}

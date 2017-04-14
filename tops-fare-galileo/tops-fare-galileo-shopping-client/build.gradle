@@ -1,0 +1,15 @@
+apply plugin: 'java'
+
+group = 'com.travelzen'
+version = "${versions.tops_fare_galileo}"
+jar {
+	baseName = 'tops-fare-galileo-shopping-client'
+}
+
+dependencies { 
+  compile  libraries.framework_thrift
+  compile  libraries.framework
+  compile  libraries.framework_logger_core
+
+  compile project(":tops-fare-galileo:tops-fare-galileo-proto")
+}
